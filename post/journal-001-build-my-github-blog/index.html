@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>Journal 001 Build my github-blog | Kosmosr-Xian</title>
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://kosmosr-xian.github.io//favicon.ico?v=1657329570319">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://kosmosr-xian.github.io//styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://kosmosr-xian.github.io/">
+        <img class="avatar" src="https://kosmosr-xian.github.io//images/avatar.png?v=1657329570319" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://kosmosr-xian.github.io/">
+        <h1 class="site-title">Kosmosr-Xian</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">Journal 001 Build my github-blog</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2022-07-08</span>
+            
+          </div>
+          <div class="post-content" v-pre>
+            <p>July 8th<br>
+This is my first day writing blogs!<br>
+This idea comes from my online computer programming teacher , he advises us to write blogs to record new ideas and write brief extract of the lessons.And he says it's useful for us when applying for a job , which can let the interviewer know us better.He recommends some Chinese local websites where computer programmers can communicate and write blogs on , however , since I want to practice my English , I decide to write it in English.<br>
+Although I haven't learn C# , I built my personal website with the help of github pages and Gridea.It took me some time to download different softwares and struggle with those long and misterious code.But I found a great course on bilibili and it introduces the Gridea , which can help a beginner like me to have a blog.I even have my own site , hahaha!<br>
+I think it's really meaningful to develope a software like that , helping those who do not understand computer programming build their blogs.However, I want to DIY one on my own after I learn more about computer programming.<br>
+Tommorrow I will learn something about the basic of C# ,so excited to learn more now.</p>
+
+          </div>
+        </div>
+
+        
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan"></div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://kosmosr-xian.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
